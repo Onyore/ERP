@@ -1,0 +1,72 @@
+
+
+pre {
+    font-family: monospace;
+}
+
+#pagewrap {
+    margin: 0 auto;
+    width: 1200px;
+	margin-top:5px;
+}
+
+#search {
+    -webkit-border-radius: 10px;
+    background-color: #E0ECF8;
+    padding: 10px;
+    color:#066A75;
+    position: fixed;
+    right: 15%;
+    display: none;
+	
+}
+
+
+body {
+    font-family: Cambria, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	background:url(../images/terminus.png);
+	
+	background-color #cccccc
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+table {
+    background-color: #BDBDBD;
+    -webkit-border-radius: 10px;
+    width: 100%;
+    padding: 20px;
+}
+
+th.sortable {
+    color: #066A75;
+    font-weight:700;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size:18px;
+}
+
+th.sortable:hover {
+    color: black;
+}
+
+th.sorted-asc, th.sorted-desc {
+    color: black;
+}
+
+td {
+    background-color: white;
+}
+
+td.odd {
+    background-color: #A4A4A4;
+    color: white;
+}
+
+td.hovered {
+    background-color: white;
+    color: #B63007;
+}

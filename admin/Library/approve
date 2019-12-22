@@ -1,0 +1,15 @@
+<?php
+/*
+Author: Javed Ur Rehman
+Website: https://www.allphptricks.com/
+*/
+
+require('db.php');
+$id=$_REQUEST['id'];
+ $query = "insert into approved set RegNo = '$RegNo', Faculty  = '$Faculty ',Programme = '$Programme', FullName= '$FullName',
+	  id_no  = '$id_no ', Email='$Email',Tel = '$Tel', Level= '$Level',Officer='$Officer';
+	  DELETE FROM data WHERE id=$id" ;
+
+$result = mysqli_query($con,$query) or die ( mysqli_error());
+header("Location: index.php?delete=1"); 
+?>
